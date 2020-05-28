@@ -12,7 +12,8 @@
     ],
     "intro": {
       "title": "intro",
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "install.sh"
     },
     "finish": {
       "text": "finish.md"
