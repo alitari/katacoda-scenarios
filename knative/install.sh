@@ -1,5 +1,5 @@
 #!/bin/bash
-# kubeadm init --kubernetes-version $(kubeadm version -o short)
+kubeadm init --kubernetes-version $(kubeadm version -o short)
 mkdir ~/.kube
 cp  /etc/kubernetes/admin.conf ~/.kube/config
 
